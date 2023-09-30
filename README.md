@@ -1,10 +1,10 @@
 # FakeNewsDetection
 
- Proposta de detecção automática de fake news em textos em português usando Aprendizagem de Máquina e Redes Neurais Convolucionais com a base de dados Fake.Br Corpus. Análise de padrões em textos e metadados para identificar conteúdos falsos. Este projeto visa a identificação automática de notícias falsas (fake news) em textos escritos em Língua Portuguesa. Utilizamos técnicas avançadas de Aprendizado de Máquina e Redes Neurais Convolucionais para analisar padrões nos textos, permitindo a detecção precisa de conteúdos enganosos.
+ Proposta de detecção automática de fake news em textos em português usando Aprendizagem de Máquina e Redes Neurais Convolucionais com a base de dados Fake.Br Corpus. Análise de padrões em textos e metadados para identificar conteúdos falsos. Este projeto visa a identificação automática de notícias falsas (fake news) em textos escritos em Língua Portuguesa. Utilizamos algoritmos de Aprendizagem de Máquina e Redes Neurais Convolucionais para analisar padrões em notícias escritas em Português, permitindo a detecção precisa de conteúdos enganosos.
 
 ## Visão Geral
 
-A solução utiliza o Fake.Br Corpus, uma base de dados com mais de 7.200 artigos de notícias em Português, para treinamento e validação do modelo. Nesta análise, são utilizados tanto os textos das notícias quanto seus respectivos metadados.
+A solução utiliza o Fake.Br Corpus, uma base de dados com 7.200 artigos de notícias em Português, para treinamento e validação do modelo. Nesta análise, são utilizados tanto os textos das notícias quanto seus respectivos metadados.
 
 ### Características Principais
 

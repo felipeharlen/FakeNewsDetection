@@ -4,7 +4,7 @@
 
 ## Visão Geral
 
-A solução utiliza o Fake.Br Corpus, uma base de dados com mais de 7.200 artigos de notícias em Português, como fonte principal para treinamento e validação do modelo. Nesta análise, são utilizados tanto os textos das notícias quanto seus respectivos metadados.
+A solução utiliza o Fake.Br Corpus, uma base de dados com mais de 7.200 artigos de notícias em Português, para treinamento e validação do modelo. Nesta análise, são utilizados tanto os textos das notícias quanto seus respectivos metadados.
 
 ### Características Principais
 

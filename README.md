@@ -12,7 +12,7 @@ A solução utiliza o Fake.Br Corpus, uma base de dados com 7.200 artigos de not
 
 - **Uso de Algoritmos de Machine Learning**: São aplicados os algoritmos Support Vector Machine (SVM), Multilayer Perceptron (MLP) e Naive Bayes (NB) para reconhecimento de padrões sobre os metadados.
 
-- **Emsemble**: Ao final, os dois modelos (CNN para texto e o modelo com melhor desempenho para os metadados) são combinados, aplicando-se pesos otimizados com Gradiente Descendente.
+- **Emsemble**: Ao final, os dois modelos (CNN para texto e o modelo com melhor desempenho para os metadados) são combinados, aplicando-se pesos otimizados com Gradiente Descendente, para a classificação final.
 
 ---
 

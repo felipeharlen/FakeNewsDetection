@@ -4,6 +4,7 @@ import re
 import urlextract
 import unicodedata
 import fasttext
+import fasttext.util
 
 from glob import glob
 from tqdm.notebook import tqdm
@@ -45,7 +46,7 @@ def preprocessing(data, remove_stopwords=True, remove_sc=True):
     return preprocessed_texts
 
 
-def word_vec_matrix(embedding, word_index, vocabulary_size, embedding_dims):
+def word_vec_matrix(embedding, word_index, vocabulary_size, embedding_dims, show_missing_words=False):
     word_vector_matrix = np.zeros((vocabulary_size, embedding_dims))
 
     for word, index in word_index.word_index.items():
@@ -58,7 +59,7 @@ def word_vec_matrix(embedding, word_index, vocabulary_size, embedding_dims):
 
         if vector is not None:
             word_vector_matrix[index] = vector
-        else:
+        elif show_missing_words:
             print(word)
     
     return word_vector_matrix
